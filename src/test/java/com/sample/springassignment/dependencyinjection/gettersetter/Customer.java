@@ -14,6 +14,14 @@ public class Customer {
 		this.action = action;
 	}
 
+	public int getType() {
+		return type;
+	}
+
+	public String getAction() {
+		return action;
+	}
+
 	public void display() {
 		 System.out.println("type ::"+ type + "\naction :: " + action);
 	}
